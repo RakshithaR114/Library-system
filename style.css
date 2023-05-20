@@ -1,0 +1,61 @@
+*{
+    font-family: 'Dosis', sans-serif;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    position: sticky;
+    background-color: peru;
+    position: fixed;
+    width: 100%;
+    ;
+}
+li{
+    float:left;
+    word-spacing: 40px;
+}
+
+li a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:black;
+}
+
+input{
+    height: 15%;
+    width: 40%;
+}
+
+input :focus{
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+button{
+    background-color: peru;
+    color: white;
+    height: 2rem;
+}
+
+button:hover{
+    letter-spacing: .2rem;
+}
+
+table td{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+section{
+    padding: 5rem 10%;
+    background-color: lightyellow;
+}
